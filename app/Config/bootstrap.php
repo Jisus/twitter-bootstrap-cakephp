@@ -148,7 +148,7 @@ Cache::config('default', array('engine' => 'File'));
 */
 Configure::write(
 	'Application', array(
-		'name' => 'CakeStrap',
+		'name' => 'Partnersnet',
 		'from_email' => 'from@your_app_domain.com',
 		'contact_mail' => 'contact@your_app_domain.com'
 	)

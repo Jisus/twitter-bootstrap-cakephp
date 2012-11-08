@@ -12,3 +12,75 @@
 #3 /Applications/MAMP/htdocs/cakeStrap/lib/Cake/Core/App.php(899): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2012-11-08 01:27:07 Error: [MissingControllerException] Controller class DepoimentosController could not be found.
+#0 /Users/Jisus/Sites/partnersnet/aba-clientes/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-08 01:27:09 Error: [MissingConnectionException] Database connection "SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)" is missing, or could not be created.
+#0 /Users/Jisus/Sites/partnersnet/aba-clientes/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/Jisus/Sites/partnersnet/aba-clientes/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/Jisus/Sites/partnersnet/aba-clientes/lib/Cake/Model/Model.php(3158): ConnectionManager::getDataSource('default')
+#3 /Users/Jisus/Sites/partnersnet/aba-clientes/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/Jisus/Sites/partnersnet/aba-clientes/lib/Cake/Model/Model.php(3180): Model->setSource('users')
+#5 /Users/Jisus/Sites/partnersnet/aba-clientes/lib/Cake/Model/Model.php(1301): Model->getDataSource()
+#6 /Users/Jisus/Sites/partnersnet/aba-clientes/lib/Cake/View/Helper/FormHelper.php(197): Model->schema()
+#7 /Users/Jisus/Sites/partnersnet/aba-clientes/lib/Cake/View/Helper/FormHelper.php(436): FormHelper->_introspectModel('User', 'fields')
+#8 /Users/Jisus/Sites/partnersnet/aba-clientes/app/View/Elements/form_login.ctp(19): FormHelper->create('User', Array)
+#9 /Users/Jisus/Sites/partnersnet/aba-clientes/lib/Cake/View/View.php(920): include('/Users/Jisus/Si...')
+#10 /Users/Jisus/Sites/partnersnet/aba-clientes/lib/Cake/View/View.php(883): View->_evaluate('/Users/Jisus/Si...', Array)
+#11 /Users/Jisus/Sites/partnersnet/aba-clientes/lib/Cake/View/View.php(424): View->_render('/Users/Jisus/Si...', Array)
+#12 /Users/Jisus/Sites/partnersnet/aba-clientes/app/View/Pages/home.ctp(65): View->element('form_login')
+#13 /Users/Jisus/Sites/partnersnet/aba-clientes/lib/Cake/View/View.php(920): include('/Users/Jisus/Si...')
+#14 /Users/Jisus/Sites/partnersnet/aba-clientes/lib/Cake/View/View.php(883): View->_evaluate('/Users/Jisus/Si...', Array)
+#15 /Users/Jisus/Sites/partnersnet/aba-clientes/lib/Cake/View/View.php(475): View->_render('/Users/Jisus/Si...')
+#16 /Users/Jisus/Sites/partnersnet/aba-clientes/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#17 /Users/Jisus/Sites/partnersnet/aba-clientes/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#18 /Users/Jisus/Sites/partnersnet/aba-clientes/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#19 /Users/Jisus/Sites/partnersnet/aba-clientes/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2012-11-08 01:28:11 Error: [MissingConnectionException] Database connection "SQLSTATE[HY000] [2003] Can't connect to MySQL server on 'server.jisus.com.br' (61)" is missing, or could not be created.
+#0 /Users/Jisus/Sites/partnersnet/aba-clientes/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/Jisus/Sites/partnersnet/aba-clientes/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/Jisus/Sites/partnersnet/aba-clientes/lib/Cake/Model/Model.php(3158): ConnectionManager::getDataSource('default')
+#3 /Users/Jisus/Sites/partnersnet/aba-clientes/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/Jisus/Sites/partnersnet/aba-clientes/lib/Cake/Model/Model.php(3180): Model->setSource('users')
+#5 /Users/Jisus/Sites/partnersnet/aba-clientes/lib/Cake/Model/Model.php(1301): Model->getDataSource()
+#6 /Users/Jisus/Sites/partnersnet/aba-clientes/lib/Cake/View/Helper/FormHelper.php(197): Model->schema()
+#7 /Users/Jisus/Sites/partnersnet/aba-clientes/lib/Cake/View/Helper/FormHelper.php(436): FormHelper->_introspectModel('User', 'fields')
+#8 /Users/Jisus/Sites/partnersnet/aba-clientes/app/View/Elements/form_login.ctp(19): FormHelper->create('User', Array)
+#9 /Users/Jisus/Sites/partnersnet/aba-clientes/lib/Cake/View/View.php(920): include('/Users/Jisus/Si...')
+#10 /Users/Jisus/Sites/partnersnet/aba-clientes/lib/Cake/View/View.php(883): View->_evaluate('/Users/Jisus/Si...', Array)
+#11 /Users/Jisus/Sites/partnersnet/aba-clientes/lib/Cake/View/View.php(424): View->_render('/Users/Jisus/Si...', Array)
+#12 /Users/Jisus/Sites/partnersnet/aba-clientes/app/View/Pages/home.ctp(65): View->element('form_login')
+#13 /Users/Jisus/Sites/partnersnet/aba-clientes/lib/Cake/View/View.php(920): include('/Users/Jisus/Si...')
+#14 /Users/Jisus/Sites/partnersnet/aba-clientes/lib/Cake/View/View.php(883): View->_evaluate('/Users/Jisus/Si...', Array)
+#15 /Users/Jisus/Sites/partnersnet/aba-clientes/lib/Cake/View/View.php(475): View->_render('/Users/Jisus/Si...')
+#16 /Users/Jisus/Sites/partnersnet/aba-clientes/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#17 /Users/Jisus/Sites/partnersnet/aba-clientes/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#18 /Users/Jisus/Sites/partnersnet/aba-clientes/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#19 /Users/Jisus/Sites/partnersnet/aba-clientes/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2012-11-08 01:38:57 Error: [MissingHelperException] Helper class controllerHelper could not be found.
+#0 /Users/Jisus/Sites/partnersnet/aba-clientes/lib/Cake/View/HelperCollection.php(62): HelperCollection->load('controller')
+#1 /Users/Jisus/Sites/partnersnet/aba-clientes/lib/Cake/View/View.php(812): HelperCollection->__isset('controller')
+#2 /Users/Jisus/Sites/partnersnet/aba-clientes/app/View/Layouts/default.ctp(62): View->__get('controller')
+#3 /Users/Jisus/Sites/partnersnet/aba-clientes/lib/Cake/View/View.php(920): include('/Users/Jisus/Si...')
+#4 /Users/Jisus/Sites/partnersnet/aba-clientes/lib/Cake/View/View.php(883): View->_evaluate('/Users/Jisus/Si...', Array)
+#5 /Users/Jisus/Sites/partnersnet/aba-clientes/lib/Cake/View/View.php(539): View->_render('/Users/Jisus/Si...')
+#6 /Users/Jisus/Sites/partnersnet/aba-clientes/lib/Cake/View/View.php(483): View->renderLayout('', 'default')
+#7 /Users/Jisus/Sites/partnersnet/aba-clientes/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#8 /Users/Jisus/Sites/partnersnet/aba-clientes/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#9 /Users/Jisus/Sites/partnersnet/aba-clientes/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/Jisus/Sites/partnersnet/aba-clientes/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-11-08 01:38:58 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/Jisus/Sites/partnersnet/aba-clientes/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-08 01:38:58 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/Jisus/Sites/partnersnet/aba-clientes/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-08 01:39:17 Error: [MissingControllerException] Controller class DepoimentosController could not be found.
+#0 /Users/Jisus/Sites/partnersnet/aba-clientes/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-08 01:45:10 Error: [MissingControllerException] Controller class ClientesController could not be found.
+#0 /Users/Jisus/Sites/partnersnet/aba-clientes/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

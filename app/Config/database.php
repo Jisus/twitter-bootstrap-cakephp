@@ -62,12 +62,11 @@ class DATABASE_CONFIG {
 	public $default = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
-		'host' => 'localhost',
-		'login' => 'root',
-		'password' => 'root',
-		'database' => 'cakestrap',
+		'host' => 'server.jisus.com.br',
+		'login' => 'partnersnet',
+		'password' => '2191128',
+		'database' => 'partnersnet',
 		'prefix' => '',
-		'port'	 => 8889,
 		'encoding' => 'utf8',
 	);
 

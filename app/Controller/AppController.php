@@ -44,7 +44,7 @@ class AppController extends Controller
 		$this->Auth->authError = 'You are not allowed to see that.';
 
 		# To enable portuguese language as main
-		#Configure::write('Config.language', 'por');
+		Configure::write('Config.language', 'por');
 	}	
 }
 
